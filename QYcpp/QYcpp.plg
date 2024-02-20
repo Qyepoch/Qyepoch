@@ -1,0 +1,52 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: QYcpp - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\Code\environments\RSPC4C5.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/QYcpp.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Code\C_C++_Files\QYcpp\function.c"
+"D:\Code\C_C++_Files\QYcpp\mian.c"
+]
+Creating command line "cl.exe @D:\Code\environments\RSPC4C5.tmp" 
+Creating temporary file "D:\Code\environments\RSPC4C6.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/QYcpp.pdb" /debug /machine:I386 /out:"Debug/QYcpp.exe" /pdbtype:sept 
+".\Debug\function.obj"
+".\Debug\mian.obj"
+]
+Creating command line "link.exe @D:\Code\environments\RSPC4C6.tmp"
+<h3>Output Window</h3>
+Compiling...
+function.c
+d:\code\c_c++_files\qycpp\function.h(13) : error C2061: syntax error : identifier 'swap'
+d:\code\c_c++_files\qycpp\function.h(13) : error C2059: syntax error : ';'
+d:\code\c_c++_files\qycpp\function.h(13) : error C2059: syntax error : 'type'
+d:\code\c_c++_files\qycpp\function.c(67) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+d:\code\c_c++_files\qycpp\function.c(71) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+d:\code\c_c++_files\qycpp\function.c(75) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+d:\code\c_c++_files\qycpp\function.c(79) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+d:\code\c_c++_files\qycpp\function.c(83) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+d:\code\c_c++_files\qycpp\function.c(87) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+d:\code\c_c++_files\qycpp\function.c(269) : warning C4244: '=' : conversion from 'int ' to 'float ', possible loss of data
+d:\code\c_c++_files\qycpp\function.c(297) : error C2061: syntax error : identifier 'swap'
+d:\code\c_c++_files\qycpp\function.c(297) : error C2059: syntax error : ';'
+d:\code\c_c++_files\qycpp\function.c(297) : error C2059: syntax error : 'type'
+mian.c
+d:\code\c_c++_files\qycpp\function.h(13) : error C2061: syntax error : identifier 'swap'
+d:\code\c_c++_files\qycpp\function.h(13) : error C2059: syntax error : ';'
+d:\code\c_c++_files\qycpp\function.h(13) : error C2059: syntax error : 'type'
+d:\code\c_c++_files\qycpp\mian.c(45) : warning C4013: 'swap' undefined; assuming extern returning int
+Ö´ÐÐ cl.exe Ê±³ö´í.
+
+
+
+<h3>Results</h3>
+QYcpp.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

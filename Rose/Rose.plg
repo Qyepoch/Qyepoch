@@ -1,0 +1,57 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Rose - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\Code\environments\RSPC7ED.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/Rose.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"D:\Code\C_C++_Files\Rose\main.cpp"
+"D:\Code\C_C++_Files\Rose\function.cpp"
+]
+Creating command line "cl.exe @D:\Code\environments\RSPC7ED.tmp" 
+Creating temporary file "D:\Code\environments\RSPC7EE.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/Rose.pdb" /debug /machine:I386 /out:"Debug/Rose.exe" /pdbtype:sept 
+".\Debug\main.obj"
+".\Debug\function.obj"
+]
+Creating command line "link.exe @D:\Code\environments\RSPC7EE.tmp"
+<h3>Output Window</h3>
+Compiling...
+main.cpp
+d:\code\c_c++_files\rose\function.h(5) : error C2061: syntax error : identifier 'DOT'
+d:\code\c_c++_files\rose\main.cpp(12) : error C2065: 'DOT' : undeclared identifier
+d:\code\c_c++_files\rose\main.cpp(12) : error C2146: syntax error : missing ';' before identifier 'dot'
+d:\code\c_c++_files\rose\main.cpp(12) : error C2065: 'dot' : undeclared identifier
+d:\code\c_c++_files\rose\main.cpp(14) : error C2065: 'initgraph' : undeclared identifier
+d:\code\c_c++_files\rose\main.cpp(15) : error C2065: 'setbkcolor' : undeclared identifier
+d:\code\c_c++_files\rose\main.cpp(15) : error C2065: 'LIGHTBLUE' : undeclared identifier
+d:\code\c_c++_files\rose\main.cpp(16) : error C2065: 'cleardevice' : undeclared identifier
+d:\code\c_c++_files\rose\main.cpp(17) : error C2065: 'setcolor' : undeclared identifier
+d:\code\c_c++_files\rose\main.cpp(17) : error C2065: 'RED' : undeclared identifier
+d:\code\c_c++_files\rose\main.cpp(18) : error C2065: 'setbkmode' : undeclared identifier
+d:\code\c_c++_files\rose\main.cpp(18) : error C2065: 'TRANSPARENT' : undeclared identifier
+d:\code\c_c++_files\rose\main.cpp(19) : error C2065: 'settextstyle' : undeclared identifier
+d:\code\c_c++_files\rose\main.cpp(20) : error C2065: 'outtextxy' : undeclared identifier
+d:\code\c_c++_files\rose\main.cpp(23) : error C2065: 'rosesize' : undeclared identifier
+d:\code\c_c++_files\rose\main.cpp(24) : error C2065: 'memset' : undeclared identifier
+d:\code\c_c++_files\rose\main.cpp(25) : error C2065: '_kbhit' : undeclared identifier
+d:\code\c_c++_files\rose\main.cpp(28) : error C2065: 'rand' : undeclared identifier
+d:\code\c_c++_files\rose\main.cpp(28) : error C2065: 'RAND_MAX' : undeclared identifier
+d:\code\c_c++_files\rose\main.cpp(30) : error C2228: left of '.z' must have class/struct/union type
+d:\code\c_c++_files\rose\main.cpp(30) : fatal error C1903: unable to recover from previous error(s); stopping compilation
+function.cpp
+d:\code\c_c++_files\rose\function.h(5) : error C2061: syntax error : identifier 'DOT'
+Ö´ÐÐ cl.exe Ê±³ö´í.
+
+
+
+<h3>Results</h3>
+Rose.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
