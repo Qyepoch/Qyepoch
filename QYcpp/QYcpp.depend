@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1708504475 source:d:\code\code_blocks\qycpp\main.cpp
+	<iostream>
+	"function.cpp"
+	"WangDao.cpp"
+
+1706863730 d:\code\code_blocks\qycpp\function.h
+	"struct.h"
+
+1706863695 d:\code\code_blocks\qycpp\struct.h
+
+1706869780 d:\code\code_blocks\qycpp\function.cpp
+	"function.h"
+	"struct.h"
+	<iostream>
+	<cstdlib>
+
+1708507621 d:\code\code_blocks\qycpp\wangdao.cpp
+	"WangDao.h"
+	<cmath>
+	<string.h>
+
+1708504585 d:\code\code_blocks\qycpp\wangdao.h
+
